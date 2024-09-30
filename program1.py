@@ -1,5 +1,5 @@
 class Solution(object):
-    def isValid(s: str) -> bool:
+    def isValid( self , s: str) -> bool:
         # Stack to store opening brackets
         stack = []
         # Dictionary to map closing to opening brackets
